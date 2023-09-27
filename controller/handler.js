@@ -7,9 +7,9 @@ const AWS = require("aws-sdk");
 // });
 
 const ses = new AWS.SES({
-  accessKeyId: process.env.accessKeyId,
-  secretAccessKey: process.env.secretAccessKey,
-  region: process.env.region,
+  accessKeyId: "AKIAT3RNUGEM6TRZ3657",
+  secretAccessKey: "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",
+  region: "us-east-1",
 });
 
 const functionHandler = async (req, res, next) => {
